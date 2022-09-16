@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>QUIZ APP</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+<link rel="stylesheet" href="quiz.css">
+
+</head>
+<body >
+   <div class="mine">
+    <header class="header1">
+        <nav class="nav1 bg-dark h-100 "><span class="text-light">QUIZ APP</span></nav>
+    </header>
+   <section class="content container-fluid ">
+    <div  class="all_div row align-content-center justify-content-center ">
+        <div class=" div_div  col-sm-10 col-lg-6 ">
+      
+            <div class="i_div settings shadow p-3 mb-5 bg-white rounded" id="settings">
+               <div class="category_div from-group">
+                 <label class="category_lbl"  for="category">Category: </label>
+                 <select id="category" class="category_input form-control ">
+                     <option value="9">General Knowledge</option>
+                     <option value="27">Animals</option>
+                     <option value="21">Sports</option>
+                     <option value="23">History</option>
+                 </select>
+               </div>
+                <div class="numbers_q_div from-group my-4">
+                 <label class="numbers_q_lbl">Number Of Questions: </label>
+                 <input class="numbers_q_input form-control" id="numbers_q_input" type="text">
+                 <small>Max Number 10</small>
+                </div>
+              <div class="difficulty_div from-group ">
+                 <label class="difficulty_lbl" for="difficulty" >Difficulty: </label>
+                 <div class="difficulty_div_check" id="difficulty">
+                     <label for="easy"><input class="" type="radio" id="easy"  name="radio" >Easy</label>
+                     <label for="medium"><input class="" type="radio" id="medium"  name="radio">Medium</label>
+                     <label for="hard"><input class="" type="radio" id="hard" name="radio" >Hard</label>
+                 </div>
+               </div>
+                <div class="row justify-content-end pr-4"><button class="start_btn btn btn-primary" id="start_btn">START</button></div>
+             </div>
+             <div class="i_div oprations shadow p-3 mb-5 bg-white rounded row" id="oprations">
+                 <div class="currentANDtotal col-12 text-right" id="currentANDtotal"><span id="current_span">3</span><span>/</span><span id="total_span">10</span></div>
+             
+             <div class="text_question_div col-12 mb-2 mt-2"><h3 id="text_question">Questions</h3></div>
+             <div class="titel_q_div col-12"><h6 id="titel_q">HOW TO COOLECT NUMBER</h6></div>
+             <div class="text_answer col-12 mb-2 mt-2"><h4>Answers</h4></div>
+             <div class="answers_div col-12" id="answers_div">
+             </div>
+             <div class="btn_div col-12 text-right"><button class=" btn btn-primary" id="next_btn">NEXT</button></div>
+             <div class="tim col-12 mt-2 ">
+                 <div id="spans_div">
+                     <span class="active1 spans bg-secondary "></span>
+                     <span class="spans bg-secondary"></span>
+                     <span class="spans bg-secondary"></span>
+                     <span class="spans bg-secondary"></span>
+                 </div>
+                 <span id="timer_span"></span>
+               
+             </div>
+             </div>
+             <div class="i_div result shadow p-3 mb-5 bg-white rounded row text-center" id="result">
+                 <div class="col-12 mb-2"><span id="answerd_span">YOUR ARE ANSWERD</span></div>
+                 <div class="col-12 mb-2"><span id="result_span">your result is:</span></div>
+                 <div class="col-12 mb-2"><button class="btn btn-primary" id="again_btn">Again</button></div>
+             </div>
+           
+         </div>
+    </div>
+   </section>
+   <footer class="footer1 text-light"><span class="mt-1">Developed by Ameerah Alsharif</span></footer>
+   </div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+<script src="quiz.js"></script>
+</body>
+</html>

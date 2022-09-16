@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mine{
+    height: 100vh;
+    width: 100vw;
+
+}
+.header1{
+    height: 10%;
+  
+}
+.content{
+    height:85%;
+  
+}
+.footer1{
+    height: 5%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    padding-left: 5px;
+}
+.nav1{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.nav1 span{
+    font-size: 40px;
+}
+.content{
+
+}
+.all_div{
+
+    height: 100%;
+    
+}
+ 
+.div_div{
+    width: 100%;
+   
+
+}
+.i_div{
+  width: 100%;
+}
+
+
+.settings{
+    display: block;
+}
+.oprations{
+    display: none;
+}
+.result{
+    display: none; 
+}
+.tim{
+    display: flex;
+    justify-content: space-between;
+}
+.spans{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    margin: 3px;
+}
+.active1{
+    background-color:#007bff !important;
+}
+.category_div , .numbers_q_div,.difficulty_div{
+  
+  
+   
+}
+.category_lbl, .numbers_q_lbl,.difficulty_lbl{
+  
+    
+}
+.category_input,.numbers_q_input{
+
+}
+.footer1 span{
+    display: inline-block;
+}
